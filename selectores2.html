@@ -1,0 +1,36 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de selectores2</title>
+	<style>
+		div p {
+		   border: 2px solid #fabada;
+		}
+
+		div > p.importante {
+		   background-color: purple;
+		   font-style: bolder;
+		}
+
+		p.importante + p {
+		   color: red;
+		}
+	</style>
+</head>
+<body>
+
+	<div>
+		<p class="importante">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non erat laoreet, feugiat mi vel, malesuada magna. Suspendisse ultrices dapibus sem, ut posuere metus finibus eget. Duis ac aliquet sapien, at maximus lorem. Pellentesque eget lacus sit amet purus placerat congue et sit amet felis. Duis egestas nec massa iaculis finibus. </p>
+		<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut non ligula vehicula, fermentum orci vel, pharetra quam.</p>
+		
+		<h2>Lorem Ipsum</h2>
+		
+		<p>Fusce dui dolor, laoreet vel est id, molestie finibus dui. Quisque aliquet dictum vulputate. </p>
+		<p>Donec egestas ac nunc at lobortis.</p>
+	</div>
+   
+
+</body>
+</html>
